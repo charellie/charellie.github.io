@@ -1,0 +1,203 @@
+<html>
+
+    <head>  
+
+        <title>Charellie</title>
+
+        <link href="http://fonts.googleapis.com/css?family=Montserrat:400,800" rel="stylesheet">
+        <link rel="stylesheet" href="reservationscss.css" type="taxt/css">
+        <script type="text/javascript" src="colorrchange.js"> </script>
+
+    </head>
+
+
+<body>
+
+    <div id=container>
+
+             <div class="header">
+
+                     <div class=innerheader>
+
+                        <div class=logocontainer>
+
+                            <h1>Char<span>ellie</span></h1>
+
+                        </div>
+
+                        <ul class="navigation">
+
+                            <a href="homepage.html"><li onmouseover="changeColor(this)" onmouseout="changeColor(this)"> Home </li></a>
+                            <a href="menu.html"><li onmouseover="changeColor(this)" onmouseout="changeColor(this)" >Menu </li></a>
+                            <a href="Reservations.html"><li onmouseover="changeColor(this)" onmouseout="changeColor(this)" >Reservations </li></a>
+                            <a href="contact.html"><li onmouseover="changeColor(this)" onmouseout="changeColor(this)">Contact </li></a>
+
+
+                        </ul>
+
+                      </div>
+
+               </div>
+
+         <div id=content>
+
+             <div id="Reservation">
+
+
+
+             </div>
+
+             <head>
+                <meta charset="UTF-8">
+                <title>Form</title>
+                <meta name="viewport" content="width=device-width">
+                <style>
+                    *,
+                    *::after,
+                    *:before{
+                        padding: 0;
+                        margin: 0;
+                        box-sizing: border-box;
+                    }
+                    html{
+                        font:normal 20px/1.5 sans-serif;  
+                        color: grey;
+                    }
+                    h1{
+                        margin: 1rem 2rem;
+                      
+                    }
+                    form{
+                        margin: 2rem;
+                        width: 800px;
+                    }
+                    .form-box{
+                        padding: 1rem;
+                        clear: both;
+                        width: 100%;
+                        position: relative;
+                    }
+                    .form-box label{
+                        font-size: 1rem;
+                        float: left;
+                        width: 100px;
+                        margin-right: 20px;
+                    }
+                    .form-box input{
+                        font-size: 1rem;
+                        width: 300px;
+                        padding: 0.25rem 1rem;
+                    }
+                    .form-box select{
+                        font-size: 1rem;
+                        width: 300px;
+                        padding: 0.25rem 1rem;
+                    }
+                    .form-box option{
+                        font-size: 1rem;
+                        width: 300px;
+                        padding: 0.25rem 1rem;
+                    }
+                    .form-box input[type="checkbox"]{
+                        font-size: 1rem;
+                    }
+                    .form-box button{
+                        font-size: 1rem;
+                        border: none;
+                        padding: 0.25rem 2rem;
+                        margin-right: 1rem;
+                        color: white;
+                        background-color:grey;
+                        cursor: pointer;
+                    }
+                    
+                    .error::after{
+                        background-color: hsl(10, 60%, 50%);
+                        color: papayawhip;
+                        font-size: 1rem;
+                        line-height: 1.8;
+                        width: 350px;
+                        padding-left: 1rem;
+                        position:absolute;
+                        right: 0;
+                        content: attr(data-errormsg);
+                    }
+                </style>
+            </head>
+            <body>
+                <h1>Make your reservation now!</h1>
+                <p>Our reservations open every Monday for the following week only</p>
+                
+                <form id="form-user" action="#" method="post">
+                    <div class="form-box error" data-errormsg="">
+                        <label for="input-first">Name</label>
+                        <input type="text" id="input-first" autofocus placeholder="Name" tabindex="1"/>
+                    </div>
+                    <div class="form-box" data-errormsg="">
+                        <label for="input-email">E-mail</label>
+                        <input type="email" id="input-email" required placeholder="E-mail Address" tabindex="3" />
+                    </div>
+                    <div class="form-box" data-errormsg="">
+                        <label for="input-age">Day</label>
+                        <select id="input-age" tabindex="5">
+                            <option value="0">Monday</option>
+                            <option value="1">Tuesday</option>
+                            <option value="2">Wednesday</option>
+                            <option value="3">Thursday</option>
+                            <option value="4">Friday</option>
+                            <option value="5">Saturday</option>
+                        </select>
+                    </div>
+                    <div class="form-box" data-errormsg="">
+                        <label for="input-age">Preferred Time</label>
+                        <select id="input-age" tabindex="4">
+                            <option value="0">17:00-18:30</option>
+                            <option value="1">18:00-19:30</option>
+                            <option value="2">19:00-20:00</option>
+                            <option value="3">20:00-21:30</option>
+                            <option value="4">21:00-22:30</option>
+                        </select>
+                    </div>
+                    <div class="form-box" data-errormsg="">
+                        <label for="input-alive">Party greater than four people?</label>
+                        <input type="checkbox" id="input-alive" value="yes" tabindex="5" checked />
+                    </div>
+                    <div class="form-box">
+                        <button id="button-cancel">Cancel</button>
+                        <button id="button-send">Send</button>
+                    </div>
+                </form>
+                
+                <script src="charellie.js"></script>
+
+
+        </div>
+
+ </div>
+
+
+<div id="footer">
+
+
+        <div id=address>
+
+        <p>Charellie - Bedford Street 67, Leamington Spa, CV34 4AG, United Kingdom - 07707878222</p>
+
+       </div>
+
+       <div id=copyright>
+
+        Copyright &copy;2020 Charlotte & Eleanor
+
+       </div>
+
+
+</div>
+
+
+    
+</body>
+
+
+
+</html>

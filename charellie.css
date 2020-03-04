@@ -1,4 +1,180 @@
-/* info */ 
-h1 {
-    color: green
+
+body {
+
+    background-color: #eeeeee;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+
+h3 {
+
+font-weight: bold;
+font-size: 25px;
+text-decoration: underline;
+color: grey;
+
+}
+
+
+#container {
+
+    background-color: white;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+.header {
+
+    background-color: #d3d3d3 ;
+    display: white;
+    height: 90px;
+    width: 1200px;
+    position: fixed;
+    top: 0px;
+
+}
+
+.innerheader {
+    
+    width: 1000px;
+    height: 100%;
+    display: white;
+    margin: 0 auto;
+    background-color: #d3d3d3;
+
+}
+
+.logocontainer {
+
+    height: 100%;
+    display: table;
+    float: left;
+
+
+}
+
+.logocontainer h1 {
+
+    color: white;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family:'Montserrat';
+    font-size: 40px;
+    font-weight: 200;
+
+}
+
+.logocontainer h1 span {
+
+    font-weight: 800;
+
+}
+
+#content {
+
+        margin-top: 90px;
+
+
+}
+
+.navigation {
+
+    float: right ;
+    height: 100%;
+
+}
+
+ .navigation a {
+
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+    list-style-type: none;
+    
+
+ }
+
+
+ .navigation a li {
+
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 16px;
+
+ }
+
+.links {
+
+    font-size: 20px;
+
+}
+
+
+#menu {
+
+    font-size: 30px;
+    padding: 1px;
+    color: grey;
+
+}
+
+#anti ul {
+
+    list-style-type: none;
+    padding: 1%;
+    color: grey;
+
+}
+
+
+#pas ul {
+
+    list-style-type: none;
+    padding: 1%;
+    color: grey;
+
+}
+
+
+#pe ul {
+
+    list-style-type: none;
+    padding: 1%;
+    color: grey;
+
+}
+
+#car ul {
+
+    list-style-type: none;
+    padding: 1%;
+    color: grey;
+
+}
+
+#footer {
+
+    text-align: center;
+    padding: 10px;
+    background-color: #d3d3d3;
+    color: white;
+    width: 1180px;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+
+#name {
+
+    float: left;
+
 }
